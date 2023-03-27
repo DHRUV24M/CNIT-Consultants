@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CNIT Consultants</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo_new.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">SERVICES</a></li>
+                    <!-- course to Services -->
+                    <li><a href="blog.html">NEWS</a></li>
+                    <!-- blog to news -->
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>About Us</h1>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>CNIT Consultants Private Limited was incorporated on 18th June 2020.</h1>     
+            <p>    
+                <strong>CINIT CONSULTANTS PVT. LTD.</strong> is a most preferred System Integrators for IT Infra-structure, Solutions, Audio Video System Integration, Smart ClassRoom Solutions, High end Computing & Networking Solution, Server  Storage & Virtualization, CCTV & IP Surveillance and  Video Management solution- Auditorium/Conference Hall automation , etc.  Offering to the various product of IT, Audio-Visual & Security needs of the Board rooms, Conference Rooms, Training Rooms, Offices, Auditoriums and Indoor/Outdoor the entire premises. 
+            </p>
+            <p>
+                With more than 15 years of past experience in Servicing the Nation and with a dedicated team of professionals to cater to IT, Networking, AV & Security requirements and an unmatchable encouragement from our national partners we aspire to become the most preferred vendor for all related requirements in the Corporate, Railways, Defense, Education, Health & Government. We have partnered with best and eminent brands
+            </p>
+            <a href="link to button" class="hero-btn red-btn">EXPOLER NOW</a>
+            <!-- add a button to for the drop down to roll down the more information about the company -->
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+            <h4>About Us</h4>
+            <p>Commercial and IT Consultancy. </br> This was started with a vision of entrepreneurial empowerment amongst youth through commercial and technical projects consultancy. 
+            </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Copyright &copy; 2022 CNITC Consultants</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

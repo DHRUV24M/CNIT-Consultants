@@ -242,6 +242,7 @@ h3{
 }
 .facility-col img{
     width: 100%;
+    /* height: 50%; */
     border-radius: 10px;
 }
 .facility-col p{
@@ -253,6 +254,33 @@ h3{
     text-align: left;
 }
 
+/*-------------- Clientele ----------------*/
+
+.clientele{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.clientele-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.clientele-col img{
+    width: 90%;
+    border-radius: 10px;
+    
+}
+.clientele-col p{
+    padding: 0;
+}
+.clientele-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
 /*---------------- testimonials ------------------*/
 
 .testimonials{
